@@ -6,21 +6,18 @@
   "organizationName": "Swift Access Card 711",
   "description": "Apple Wallet Pass 项目",
   "foregroundColor": "rgb(17, 24, 39)",
-  "backgroundColor": "rgb(249, 115, 22)",
+  "backgroundColor": "rgb(255, 255, 255)",
   "labelColor": "rgb(67, 20, 7)",
-  "coupon": {
+  "eventTicket": {
     "headerFields": [
       {
         "key": "h1",
-        "label": "CODE",
-        "value": "LUNCH2"
-      }
-    ],
-    "primaryFields": [
-      {
-        "key": "p1",
-        "label": "OFFER",
-        "value": "2 FOR 1"
+        "label": "date",
+        "value": "Value",
+        "changeMessage": "date changed to %@",
+        "dateStyle": "PKDateStyleMedium",
+        "timeStyle": "PKDateStyleShort",
+        "isRelative": true
       }
     ],
     "secondaryFields": [
@@ -46,15 +43,10 @@
       }
     ]
   },
-  "logoText": "Swift Access Card 711",
-  "barcodes": [
-    {
-      "format": "PKBarcodeFormatCode128",
-      "message": "LUNCH2",
-      "messageEncoding": "iso-8859-1",
-      "altText": "LUNCH2"
-    }
-  ],
+  "logoText": "麦当劳星愿品鉴会",
   "webServiceURL": "https://example.invalid/passkit",
-  "authenticationToken": "0000000000000000"
+  "authenticationToken": "0000000000000000",
+  "associatedStoreIdentifiers": [
+    1054598922
+  ]
 }
