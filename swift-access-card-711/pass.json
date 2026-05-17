@@ -1,0 +1,60 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.mk.local",
+  "teamIdentifier": "9733K94JUG",
+  "serialNumber": "42AC7910AEFA464E",
+  "organizationName": "Swift Access Card 711",
+  "description": "Apple Wallet Pass 项目",
+  "foregroundColor": "rgb(17, 24, 39)",
+  "backgroundColor": "rgb(249, 115, 22)",
+  "labelColor": "rgb(67, 20, 7)",
+  "coupon": {
+    "headerFields": [
+      {
+        "key": "h1",
+        "label": "CODE",
+        "value": "LUNCH2"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "p1",
+        "label": "OFFER",
+        "value": "2 FOR 1"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "s1",
+        "label": "VALID",
+        "value": "Weekdays"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "a1",
+        "label": "ITEM",
+        "value": "Tacos"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "b1",
+        "label": "Restrictions",
+        "value": "One per customer. Not valid with other offers.",
+        "dataDetectorTypes": []
+      }
+    ]
+  },
+  "logoText": "Swift Access Card 711",
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatCode128",
+      "message": "LUNCH2",
+      "messageEncoding": "iso-8859-1",
+      "altText": "LUNCH2"
+    }
+  ],
+  "webServiceURL": "https://example.invalid/passkit",
+  "authenticationToken": "0000000000000000"
+}
